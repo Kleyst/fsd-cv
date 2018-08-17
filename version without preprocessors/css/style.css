@@ -1,0 +1,429 @@
+/*bold*/
+.bold {
+  font-weight: bold;
+}
+
+.bold--blue {
+  color: #3d6cb0;
+}
+/*chart*/
+
+.chart__title {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: normal;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.chart__title--center {
+  text-align: center;
+}
+
+.chart__representation {
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  color: #000000;
+}
+
+.chart__representation--line {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.chart__representation--circles {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+/*company*/
+
+.company__name {
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.company__working-period {
+  font-weight: normal;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  color: #000000;
+}
+
+.company__job {
+  display: block;
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.company__text {
+  margin-top: 11px;
+  margin-bottom: 26px;
+}
+
+/*contact*/
+
+.contact {
+  margin-bottom: 22px;
+}
+
+/*education*/
+
+.education {
+  margin-bottom: 58px;
+}
+
+.education__data {
+  margin-top: 60px;
+}
+
+/*experience*/
+
+.experience {
+  margin-bottom: 57px;
+}
+
+.experience__data {
+  margin-top: 88px;
+}
+
+/*first-name*/
+
+.first-name {
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 104px;
+  line-height: 0.9em;
+  text-align: center;
+  font-family: "Myriad Pro LightSemiExt", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/*header*/
+
+.header__logo {
+  display: inline-block;
+  position: relative;
+  top: 45px;
+  width: 144px;
+  height: 144px;
+  margin-right: 25px;
+  border-radius: 72px;
+  background-color: white;
+  border: 2px solid #3d6cb0;
+}
+
+.header__logo::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 128px;
+  height: 128px;
+  top: 8px;
+  left: 8px;
+  border-radius: 64px;
+  background-color: #3d6cb0;
+}
+
+ .header__title {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 82px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #3d6cb0;
+}
+
+.header__container {
+  display: inline-block;
+  background-color: white;
+  padding-right: 15px;
+}
+
+/*list*/
+
+.list {
+  padding-left: 105px;
+  list-style-type: none;
+}
+
+.list__item {
+  position: relative;
+}
+
+.list__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-top: 13px;
+  margin-left: -82px;
+  border-radius: 20px;
+  background-color: #000000;
+}
+
+/*page*/
+
+.page {
+  display: flex;
+  justify-content: center;
+  width: 2360px;
+  padding: 20px 60px;
+  margin: auto;
+}
+
+.page__left-column {
+  margin: 60px 50px 95px 0;
+  padding: 30px;
+  width: 828px;
+}
+
+.page__right-column {
+  margin: 60px 0 95px 50px;
+  padding: 30px;
+  width: 1263px;
+}
+
+.page__title {
+  margin-top: 40px;
+  margin-bottom: 114px;
+  padding-top: 25px;
+}
+
+.page__logo {
+  margin: auto;
+  margin-bottom: 75px;
+  width: 461px;
+  height: 461px;
+  border-radius: 231px;
+  background-color: white;
+  border: 2px solid #3d6cb0;
+}
+
+.page__logo::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 408px;
+  height: 408px;
+  margin-top: 28px;
+  margin-left: 28px;
+  border-radius: 231px;
+  background-color: #3d6cb0;
+}
+
+/*paragraph*/
+
+.paragraph {
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 1.2em;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  color: #000000;
+}
+
+/*profession*/
+.profession {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/*profile*/
+
+.profile {
+  margin-bottom: 48px;
+}
+
+/*second-name*/
+
+.second-name {
+  font-weight: bold;
+  font-size: 124px;
+  line-height: 0.9em;
+  text-align: center;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/*section*/
+
+
+.section__header {
+  position: relative;
+}
+
+.section__header::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 61px;
+  display: inline-block;
+  z-index: -1;
+  width: 100%;
+  height: 10px;
+  background-color: #3d6cb0;
+}
+
+/*skills*/
+
+.skills__data {
+  margin-top: 53px;
+}
+
+/*software*/
+
+.software__data {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 5px;
+}
+
+.software__left-column {
+  padding-left: 6px;
+  width: 553px;
+  margin-right: 70px;
+}
+
+.software__right-column {
+  width: 553px;
+  margin-left: 70px;
+}
+
+/*table*/
+
+.table {
+  margin-top: 40px;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.table__header {
+  width: 215px;
+  padding: 30px 45px 30px 0;
+  font-weight: bold;
+  font-size: 41px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #3d6cb0;
+}
+
+.table__data {
+  padding: 30px 0;
+  font-weight: normal;
+  font-size: 41px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  color: #000000;
+}
+
+/*univercity*/
+
+.univercity__name {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.univercity__time-period {
+  font-weight: normal;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  color: #000000;
+}
+
+.univercity__degree {
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 52px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  color: #3d6cb0;
+}
+
+.univercity__text {
+  margin-top: 11px;
+  margin-bottom: 26px;
+}
+
+/*fonts*/
+
+@font-face {
+
+  font-family: 'Myriad Pro';
+  
+  src: url('../fonts/MyriadPro-Regular.eot');
+  
+  src: url('../fonts/MyriadPro-Regular.eot?iefix') format('eot'),
+  
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+ 
+  font-weight: normal;
+  
+  font-style: normal;
+
+}
+
+@font-face {
+
+  font-family: 'Myriad Pro LightSemiExt';
+  
+  src: url('../fonts/MyriadPro-LightSemiExt.eot');
+  
+  src: url('../fonts/MyriadPro-LightSemiExt.eot?iefix') format('eot'),
+  
+  url('../fonts/MyriadPro-LightSemiExt.woff') format('woff'),
+  
+  url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+ 
+  font-weight: normal;
+  
+  font-style: normal;
+
+}
+
+@font-face {
+
+  font-family: 'Myriad Pro';
+  
+  src: url('../fonts/MyriadPro-Bold.eot');
+  
+  src: url('../fonts/MyriadPro-Bold.eot?iefix') format('eot'),
+  
+  url('../fonts/MyriadPro-Bold.woff') format('woff'),
+  
+  url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+ 
+  font-weight: bold;
+  
+  font-style: normal;
+
+}
