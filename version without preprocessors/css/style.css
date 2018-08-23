@@ -8,6 +8,11 @@
 }
 /*chart*/
 
+.chart__container {
+  display: flex;
+  justify-content: center;
+}
+
 .chart__title {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -22,23 +27,32 @@
   text-align: center;
 }
 
-.chart__representation {
-  font-weight: normal;
-  font-size: 31px;
-  line-height: 1.2em;
-  text-align: center;
-  font-family: "Myriad Pro", "arial", sans-serif;
-  color: #000000;
+.chart__view {
+
 }
 
-.chart__representation--line {
+.chart__view--line {
   margin-top: 38px;
   margin-bottom: 38px;
 }
 
-.chart__representation--circles {
+.chart__view--circle {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
   margin-top: 27px;
+  margin-right: 19px;
   margin-bottom: 27px;
+  background-color: #3d6cb0;
+  border-radius: 18px;
+}
+
+.chart__view--blue {
+  background-color: #3d6cb0;
+}
+
+.chart__view--grey {
+  background-color: #e6e6e6;
 }
 
 /*company*/
@@ -82,6 +96,50 @@
 
 /*education*/
 
+.education__logo {
+  position: absolute;
+  display: inline-block;
+  color: #ffffff;
+  top: 86px;
+  left: -25px;
+  width: 0px;
+  height: 0px;
+  border-right:  100px solid transparent;
+  border-bottom: 70px  solid #ffffff;
+  border-left:   100px solid transparent;
+  transform: rotate(35deg) scale(.5);
+}
+
+.education__logo::before {
+  border-bottom: 80px solid #ffffff;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+
+.education__logo::after {
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffffff;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
+
+
 .education {
   margin-bottom: 58px;
 }
@@ -94,6 +152,26 @@
 
 .experience {
   margin-bottom: 57px;
+}
+
+.experience__logo {
+  position: absolute;
+  top: 103px;
+  left: 35px;
+  width:78px;
+  height: 56px;
+  background-color: #ffffff;
+}
+
+.experience__logo::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 18px;
+  width: 30px;
+  height: 30px;
+  border: 6px solid #ffffff;
+  border-radius: 41px;
 }
 
 .experience__data {
@@ -123,7 +201,7 @@
   height: 144px;
   margin-right: 25px;
   border-radius: 72px;
-  background-color: white;
+  background-color: #ffffff;
   border: 2px solid #3d6cb0;
 }
 
@@ -151,7 +229,7 @@
 
 .header__container {
   display: inline-block;
-  background-color: white;
+  background-color: #ffffff;
   padding-right: 15px;
 }
 
@@ -212,7 +290,7 @@
   width: 461px;
   height: 461px;
   border-radius: 231px;
-  background-color: white;
+  background-color: #ffffff;
   border: 2px solid #3d6cb0;
 }
 
@@ -256,6 +334,29 @@
   margin-bottom: 48px;
 }
 
+.profile__logo {
+  position: absolute;
+  top: 122px;
+  left: 42px; 
+  background-color: #ffffff;
+  display: inline-block;
+  height: 32px;
+  width: 64px;
+  border-top-left-radius: 64px;
+  border-top-right-radius: 64px;
+}
+
+.profile__logo::after {
+  content: "";
+  position: absolute;
+  top: -29px;
+  left: 14px; 
+  background-color: #ffffff;
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+}
+
 /*second-name*/
 
 .second-name {
@@ -289,11 +390,65 @@
 
 /*skills*/
 
+.skills__logo {
+  position: absolute;
+  top: 77px;
+  left: 44px; 
+  background-color: #ffffff;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.skills__logo::before {
+  content: "";
+  position: absolute;
+  top: 37px;
+  left: 15px; 
+  background-color: #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 12px;
+}
+
+.skills__logo::after {
+  content: "";
+  position: absolute;
+  top: 71px;
+  left: 15px; 
+  background-color:#ffffff;
+  height: 13px;
+  width: 30px;
+  border-radius: 9px;
+}
+
 .skills__data {
   margin-top: 53px;
 }
 
 /*software*/
+
+.software__logo {
+  position: absolute;
+  top: 86px;
+  left: 38px;
+  width: 62px;
+  height: 37px;
+  border-radius: 9px;
+  border: 5px solid #ffffff;
+}
+
+.software__logo::after {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 47px;
+	border-bottom: 14px solid #ffffff;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	height: 0;
+	width: 72px;
+}
 
 .software__data {
   display: flex;
