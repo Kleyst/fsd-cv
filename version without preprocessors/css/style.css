@@ -94,6 +94,15 @@
   margin-bottom: 22px;
 }
 
+.contact__logo {
+  position: absolute;
+  top: 79px;
+  left: 35px;
+  background-image: url("../img/phone-receiver.svg");
+  width: 80px;
+  height: 80px;
+}
+
 /*education*/
 
 .education__logo {
