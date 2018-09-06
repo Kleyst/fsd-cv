@@ -5,14 +5,17 @@
 }
 
 .bold--blue {
-  color: #3d6cb0;
+  color: #006CB4;
 }
 
 /*chart*/
 
 .chart__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 320px;
+  min-width: 280px;
+  margin: auto;
 }
 
 .chart__title {
@@ -39,18 +42,17 @@
 }
 
 .chart__view--circle {
-  display: inline-block;
+  box-sizing: border-box;
   width: 18px;
   height: 18px;
   margin-top: 1px;
-  margin-right: 10px;
   margin-bottom: 14px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
   border-radius: 9px;
 }
 
 .chart__view--blue {
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .chart__view--grey {
@@ -64,7 +66,7 @@
   left: 0;
   width: 252px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .illustrator:after {
@@ -74,7 +76,7 @@
   left: 0;
   width: 195px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .indesign:after {
@@ -84,7 +86,7 @@
   left: 0;
   width: 156px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .dreamviewer:after {
@@ -94,7 +96,7 @@
   left: 0;
   width: 230px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .aftereffects:after {
@@ -104,7 +106,7 @@
   left: 0;
   width: 170px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .htmlcss:after {
@@ -114,7 +116,7 @@
   left: 0;
   width: 252px;
   height: 22px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 /*company*/
@@ -210,22 +212,23 @@
 
 .page {
   display: flex;
-  justify-content: left;
-  width: 1180px;
-  padding: 8px 24px;
+  justify-content: center;
+  padding: 8px 2px;
   margin: auto;
 }
 
 .page__left-column {
-  margin: 30px 25px 48px 0;
-  padding: 15px;
-  width: 414px;
+  margin: 30px 30px 48px 30px;
+  padding-top: 15px;
+  min-width: 300px;
+  max-width: 424px;
 }
 
 .page__right-column {
-  margin: 30px 6px 48px 20px;
-  padding: 15px;
-  width: 632px;
+  margin: 30px 0 48px 40px;
+  padding-top: 15px;
+  min-width: 300px;
+  max-width: 628px;
 }
 
 .page__title {
@@ -242,7 +245,7 @@
   height: 230px;
   border-radius: 116px;
   background-color: #ffffff;
-  border: 1px solid #3d6cb0;
+  border: 1px solid #006CB4;
 }
 
 .page__logo::after {
@@ -254,7 +257,7 @@
   margin-top: 14px;
   margin-left: 14px;
   border-radius: 116px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 /*paragraph*/
@@ -284,6 +287,10 @@
 
 .profile {
   margin-bottom: 28px;
+}
+
+.profile__data {
+  padding-right: 23px;
 }
 
 .profile__logo {
@@ -342,7 +349,7 @@
   z-index: -1;
   width: 99%;
   height: 5px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 
@@ -354,7 +361,7 @@
   height: 70px;
   border-radius: 36px;
   background-color: #ffffff;
-  border: 1px solid #3d6cb0;
+  border: 1px solid #006CB4;
 }
 
 .section__logo::after {
@@ -366,7 +373,7 @@
   top: 3px;
   left: 3px;
   border-radius: 32px;
-  background-color: #3d6cb0;
+  background-color: #006CB4;
 }
 
 .section__title {
@@ -379,7 +386,7 @@
   font-family: "Myriad Pro", "arial", sans-serif;
   text-transform: uppercase;
   vertical-align: top;
-  color: #3d6cb0;
+  color: #006CB4;
   background-color: #ffffff;
   /*outline: 1px solid green;*/
 }
@@ -453,6 +460,7 @@
 
 .software__data {
   display: flex;
+  
   justify-content: center;
   margin-top: 20px;
   padding-top: 3px;
@@ -460,13 +468,12 @@
 
 .software__left-column {
   padding-left: 7px;
-  width: 277px;
-  margin-right: 35px;
+  
+  margin-right: 68px;
 }
 
 .software__right-column {
-  width: 277px;
-  margin-left: 40px;
+  padding-left: 7px;
 }
 
 .software__title {
@@ -491,7 +498,7 @@
   font-size: 21px;
   font-family: "Myriad Pro", "arial", sans-serif;
   text-transform: uppercase;
-  color: #3d6cb0;
+  color: #006CB4;
 }
 
 .table__data {
@@ -526,14 +533,13 @@
   font-size: 26px;
   font-family: "Myriad Pro", "arial", sans-serif;
   text-transform: uppercase;
-  color: #3d6cb0;
+  color: #006CB4;
 }
 
 .university__text {
   margin-top: 5px;
   margin-bottom: 11px;
   margin-left: 1px;
-  width: 556px;
 }
 
 /*education*/
@@ -631,6 +637,35 @@
   margin-left: -6px;
   padding-left: 17px;
   padding-right: 1px;
+}
+
+@media (max-width: 1280px) {
+  .software__data {
+    flex-direction: column;
+  }
+
+  .software__left-column,
+  .software__right-column {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .page__left-column,
+  .page__right-column {
+    margin: auto;
+    max-width: 484px;
+  }
+}
+
+@media (max-width: 350px) {
+  .section__title {
+    font-size: 39px;
+  }
 }
 
 
