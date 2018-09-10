@@ -1,0 +1,25 @@
+{
+  "name": "fsd-cv",
+  "version": "0.9.0",
+  "description": "First exercise for fsd. Adaptive cv page using pug, stylus and webpack.",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kleyst/fsd-cv.git"
+  },
+  "author": "Kleyst",
+  "license": "PDDL-1.0",
+  "bugs": {
+    "url": "https://github.com/Kleyst/fsd-cv/issues"
+  },
+  "homepage": "https://github.com/Kleyst/fsd-cv#readme"
+}
