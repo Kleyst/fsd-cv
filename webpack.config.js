@@ -38,9 +38,9 @@ const svg =  {
 }]
 };
 
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const extractSCSS =  new MiniCssExtractPlugin({
-  filename: "css/style.css",
+  filename: 'css/style.css',
 });
 
 const scss = {
@@ -48,14 +48,14 @@ const scss = {
   use: [
     MiniCssExtractPlugin.loader,
     {
-      loader: "css-loader",
+      loader: 'css-loader',
       options: {
         sourceMap: true,
         minimize: true,
         url: false
       }
     },
-    "sass-loader"
+    'sass-loader'
   ]
 };
 
