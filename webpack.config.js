@@ -47,7 +47,14 @@ const scss = {
   test: /\.scss$/,
   use: [
     MiniCssExtractPlugin.loader,
-    "css-loader",
+    {
+      loader: "css-loader",
+      options: {
+        sourceMap: true,
+        minimize: true,
+        url: false
+      }
+    },
     "sass-loader"
   ]
 };

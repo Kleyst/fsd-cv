@@ -141,7 +141,7 @@
   left: -3px;
   width: 80px;
   height: 80px;
-  background-image: url(dist/img/contact-logo.svg);
+  background-image: url("../img/contact-logo.svg");
   transform: scale(0.5); }
 
 .contact__title {
@@ -561,22 +561,22 @@
 /*fonts*/
 @font-face {
   font-family: 'Myriad Pro';
-  src: url(dist/fonts/MyriadPro-Regular.eot);
-  src: url(dist/fonts/MyriadPro-Regular.eot) format("eot"), url(dist/fonts/MyriadPro-Regular.woff) format("woff"), url(dist/fonts/MyriadPro-Regular.ttf) format("truetype");
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?iefix") format("eot"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Myriad Pro LightSemiExt';
-  src: url(dist/fonts/MyriadPro-LightSemiExt.eot);
-  src: url(dist/fonts/MyriadPro-LightSemiExt.eot) format("eot"), url(dist/fonts/MyriadPro-LightSemiExt.woff) format("woff"), url(dist/fonts/MyriadPro-LightSemiExt.ttf) format("truetype");
+  src: url("../fonts/MyriadPro-LightSemiExt.eot");
+  src: url("../fonts/MyriadPro-LightSemiExt.eot?iefix") format("eot"), url("../fonts/MyriadPro-LightSemiExt.woff") format("woff"), url("../fonts/MyriadPro-LightSemiExt.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Myriad Pro';
-  src: url(dist/fonts/MyriadPro-Bold.eot);
-  src: url(dist/fonts/MyriadPro-Bold.eot) format("eot"), url(dist/fonts/MyriadPro-Bold.woff) format("woff"), url(dist/fonts/MyriadPro-Bold.ttf) format("truetype");
+  src: url("../fonts/MyriadPro-Bold.eot");
+  src: url("../fonts/MyriadPro-Bold.eot?iefix") format("eot"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
