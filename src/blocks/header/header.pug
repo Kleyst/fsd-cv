@@ -1,0 +1,5 @@
+mixin header(name, className)
+  .header
+    span.header__logo
+    span(class= className + '__logo')
+    h2(class = 'header__title  ' + className + '__title')= name

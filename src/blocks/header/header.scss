@@ -1,0 +1,18 @@
+@import "__logo/__logo.scss";
+@import "__title/__title.scss";
+
+.header {
+  position: relative;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  margin-right: 3px;
+  right: 0px;
+  bottom: 31px;
+  display: inline-block;
+  z-index: -1;
+  width: 99%;
+  height: 5px;
+  background-color: #006cb4;
+}

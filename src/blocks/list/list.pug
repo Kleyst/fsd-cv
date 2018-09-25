@@ -1,0 +1,12 @@
+include ../university/university.pug
+include ../company/company.pug
+
+mixin list(listData, dataType)
+  ul.list
+    - for (var i = 0; i < listData.items; ++i)
+        if (dataType === 'university')
+          li.list__item
+            +university(listData.array[i])
+        if (dataType === 'company')
+          li.list__item
+            +company(listData.array[i])

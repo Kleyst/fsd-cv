@@ -1,0 +1,22 @@
+.profile__logo {
+  position: absolute;
+  top: 58px;
+  left: 20px;
+  background-color: #fff;
+  display: inline-block;
+  height: 16px;
+  width: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+
+.profile__logo::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 7px;
+  background-color: #fff;
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+}

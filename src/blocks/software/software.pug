@@ -1,0 +1,15 @@
+include ../header/header.pug
+include ../chart/chart.pug
+
+mixin software()
+  section.software
+    +header('Software','software')
+    .software__data
+      .software__left-column
+        +chart('Photoshop', 'line', 'photoshop')
+        +chart('Illustrator', 'line', 'illustrator')
+        +chart('Indesign', 'line', 'indesign')
+      .software__right-column
+        +chart('Dreamviewer', 'line', 'dreamviewer')
+        +chart('After effects', 'line', 'aftereffects')
+        +chart('HTML&CSS3', 'line', 'htmlcss')

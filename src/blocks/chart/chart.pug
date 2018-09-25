@@ -1,0 +1,13 @@
+- var MAX_CIRCLE_VALUE = 12;
+
+mixin chart(title, chartType, chartValue)
+  if chartType === 'circle'
+    h3.chart__title.chart__title--center= title
+    .chart__container
+      - for (let i = 0; i < chartValue; ++i)
+        .chart__view.chart__view--circle.chart__view--blue
+      - for (let i = 0; i < MAX_CIRCLE_VALUE - chartValue; ++i)
+        .chart__view.chart__view--circle.chart__view--grey
+  else if chartType === 'line'
+    h3.chart__title= title
+    div(class='chart__view  chart__view--line  chart__type--' + chartValue)

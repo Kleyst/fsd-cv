@@ -1,0 +1,51 @@
+include ../header/header.pug
+include ../list/list.pug
+
+-
+  var educationData = {
+    items: 4,
+    array: [
+      {
+        degree: 'Master degree',
+        timePeriod: '// Feb 2011 - Jun 2014',
+        name: 'University name',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      },
+      {
+        degree: 'Master degree',
+        timePeriod: '// Feb 2011 - Jun 2014',
+        name: 'University name',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      },
+      {
+        degree: 'Master degree',
+        timePeriod: '// Feb 2011 - Jun 2014',
+        name: 'University name',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      },
+      {
+        degree: 'Master degree',
+        timePeriod: '// Feb 2011 - Jun 2014',
+        name: 'University name',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      }
+    ]
+  }
+
+mixin education()
+  section.education
+    +header('Education','education')
+    .education__data
+      +list(educationData, 'university')

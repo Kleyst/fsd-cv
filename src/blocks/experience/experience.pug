@@ -1,0 +1,42 @@
+include ../header/header.pug
+include ../list/list.pug
+
+-
+  var experienceData = {
+    items: 3,
+    array: [
+      {
+        name: 'Company name',
+        workingPeriod: '// Feb 2011 - Jun 2014',
+        job: 'Your job here',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      },
+      {
+        name: 'Company name',
+        workingPeriod: '// Feb 2011 - Jun 2014',
+        job: 'Your job here',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      },
+      {
+        name: 'Company name',
+        workingPeriod: '// Feb 2011 - Jun 2014',
+        job: 'Your job here',
+        text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. ' +
+        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis ' +
+        'natoque penatibus et magnis dis parturient montes, nascetur ' +
+        'ridiculus mus. Donec quam felis, ultricies nec, pellentesque.'
+      }
+    ]
+  }
+
+mixin experience()
+  section.experience
+    +header('Experience','experience')
+    .experience__data
+      +list(experienceData, 'company')

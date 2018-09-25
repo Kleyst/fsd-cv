@@ -1,0 +1,29 @@
+.skills__logo {
+  position: absolute;
+  top: 39px;
+  left: 22px;
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+.skills__logo::before {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: 8px;
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 6px;
+}
+.skills__logo::after {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 8px;
+  background-color: #fff;
+  height: 7px;
+  width: 15px;
+  border-radius: 5px;
+}

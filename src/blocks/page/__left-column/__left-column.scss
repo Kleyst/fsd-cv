@@ -1,0 +1,13 @@
+.page__left-column {
+  margin: 30px 30px 48px 30px;
+  padding-top: 15px;
+  min-width: 300px;
+  max-width: 424px;
+}
+
+@media (max-width: 768px) {
+  .page__left-column {
+    margin: auto;
+    max-width: 484px;
+  }
+}

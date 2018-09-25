@@ -1,0 +1,10 @@
+mixin table(data)
+  table.table
+    - for (var i = 0; i < data.rows; ++i)
+      tr.table__row
+        - for (var j = 0; j < data.columns; ++j)
+          - var bufData = data.array[i][j];
+          if (j == 0)
+            td.table__header= bufData
+          else
+            td.table__data= bufData

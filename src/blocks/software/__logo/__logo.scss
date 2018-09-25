@@ -1,0 +1,20 @@
+.software__logo {
+  position: absolute;
+  top: 43px;
+  left: 19px;
+  width: 31px;
+  height: 19px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+.software__logo::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 24px;
+  border-bottom: 7px solid #fff;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  height: 0;
+  width: 36px;
+}

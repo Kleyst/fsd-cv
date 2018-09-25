@@ -1,0 +1,14 @@
+.list__item {
+  position: relative;
+}
+.list__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  margin-left: -41px;
+  border-radius: 10px;
+  background-color: #000;
+}

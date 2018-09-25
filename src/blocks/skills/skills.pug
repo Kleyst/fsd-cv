@@ -1,0 +1,11 @@
+include ../header/header.pug
+include ../chart/chart.pug
+
+mixin skills()
+  section.skills
+    +header('Skills','skills')
+    .skills__data
+      +chart('Creative', 'circle', 9)
+      +chart('Teamwork', 'circle', 11)
+      +chart('Innovate', 'circle', 6)
+      +chart('Communication', 'circle', 11)

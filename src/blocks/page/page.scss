@@ -1,0 +1,15 @@
+@import "__left-column/__left-column.scss";
+@import "__right-column/__right-column.scss";
+
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 8px 2px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .page {
+    flex-direction: column;
+  }
+}

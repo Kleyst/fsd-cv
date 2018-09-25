@@ -1,0 +1,20 @@
+include ../header/header.pug
+include ../table/table.pug
+
+-
+  var contactData = {
+    rows: 4,
+    columns: 2,
+    array: [
+      ['Address', 'Main Street, City.'],
+      ['E-Mail', 'contact@domain.com'],
+      ['Phone','555-555-555'],
+      ['Website', 'www.yourweb.com']
+           ]
+  }
+
+mixin contact()
+  section.contact
+    +header('Contact','contact')
+    .contact__data
+      +table(contactData)

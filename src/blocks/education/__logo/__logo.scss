@@ -1,0 +1,40 @@
+.education__logo {
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  top: 25px;
+  left: -63px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #fff;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg) scale(0.25);
+}
+.education__logo::before {
+  border-bottom: 80px solid #fff;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+.education__logo::after {
+  position: absolute;
+  display: block;
+  color: #fff;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #fff;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}

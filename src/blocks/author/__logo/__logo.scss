@@ -1,0 +1,20 @@
+.author__logo {
+  margin: auto;
+  margin-bottom: 35px;
+  width: 230px;
+  height: 230px;
+  border-radius: 116px;
+  background-color: #fff;
+  border: 1px solid #006cb4;
+}
+.author__logo::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 204px;
+  height: 204px;
+  margin-top: 14px;
+  margin-left: 14px;
+  border-radius: 116px;
+  background-color: #006cb4;
+}

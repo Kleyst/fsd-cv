@@ -1,0 +1,19 @@
+.header__title {
+  display: inline-block;
+  margin-left: -4px;
+  margin-bottom: 9px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 41px;
+  font-family: "Myriad Pro", "arial", sans-serif;
+  text-transform: uppercase;
+  vertical-align: top;
+  color: #006cb4;
+  background-color: #fff;
+}
+
+@media (max-width: 350px) {
+  .header__title {
+    font-size: 39px;
+  }
+}

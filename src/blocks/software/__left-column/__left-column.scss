@@ -1,0 +1,10 @@
+.software__left-column {
+  padding-left: 7px;
+  margin-right: 68px;
+}
+
+@media (max-width: 1280px) {
+  .software__left-column {
+    margin: auto;
+  }
+}

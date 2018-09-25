@@ -1,0 +1,19 @@
+include ../author/author.pug
+include ../profile/profile.pug
+include ../skills/skills.pug
+include ../software/software.pug
+include ../education/education.pug
+include ../experience/experience.pug
+include ../contact/contact.pug
+
+mixin page()
+  body.page
+    .page__left-column
+      +author('Name here','Surname','Graphic designer')
+      +profile()
+      +contact()
+      +skills()
+    .page__right-column
+      +education()
+      +experience()
+      +software()

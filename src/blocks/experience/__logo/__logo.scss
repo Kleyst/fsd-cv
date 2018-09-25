@@ -1,0 +1,18 @@
+.experience__logo {
+  position: absolute;
+  top: 52px;
+  left: 16px;
+  width: 39px;
+  height: 28px;
+  background-color: #fff;
+}
+.experience__logo::after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 6px;
+  width: 15px;
+  height: 15px;
+  border: 6px solid #fff;
+  border-radius: 21px;
+}
